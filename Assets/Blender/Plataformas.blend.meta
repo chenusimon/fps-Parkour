@@ -4,11 +4,27 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Columna
+    100004: Plataforma 4x4
+    100006: viga
     400000: //RootNode
+    400002: Columna
+    400004: Plataforma 4x4
+    400006: viga
     2100000: TablaMadera
+    2100002: Material.001
     2300000: //RootNode
+    2300002: Columna
+    2300004: Plataforma 4x4
+    2300006: viga
     3300000: //RootNode
+    3300002: Columna
+    3300004: Plataforma 4x4
+    3300006: viga
     4300000: Cube.009
+    4300002: Plataforma 4x4
+    4300004: Columna
+    4300006: viga
   externalObjects: {}
   materials:
     importMaterials: 1

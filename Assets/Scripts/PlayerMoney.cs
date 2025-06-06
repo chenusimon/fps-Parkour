@@ -16,6 +16,7 @@ public class PlayerMoney : MonoBehaviour
         else
         {
             availableMoney += amount;
+
         }
     }
 
