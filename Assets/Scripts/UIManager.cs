@@ -5,20 +5,14 @@ using TMPro;
 
 public class UIManager : MonoBehaviour
 {
-    public float playerMoney;
+    public TextMeshProUGUI moneyText;
+    public PlayerMoney money;
+    public TextMeshProUGUI lifeText;
+    public PlayerLife life;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
     public void UpdateUI()
     {
-
+        moneyText.text = "money: $" + money.availableMoney.ToString();
+        lifeText.text = "life: " + life.userLife.ToString();
     }
 }
