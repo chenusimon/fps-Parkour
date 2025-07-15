@@ -18,6 +18,7 @@ public class MercanciaScript : MonoBehaviour
         {
             dineroManager.UpdateMoney(precio);
             Destroy(gameObject);
+            Debug.Log("hola");
         }
 
     }

@@ -8,11 +8,11 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI moneyText;
     public PlayerMoney money;
     public TextMeshProUGUI lifeText;
-    public PlayerLife life;
+    public LifeManager life;
 
-    public void UpdateUI()
+    void Update()
     {
         moneyText.text = "money: $" + money.availableMoney.ToString();
-        lifeText.text = "life: " + life.userLife.ToString();
+        lifeText.text = "life: " + life.life.ToString();
     }
 }
